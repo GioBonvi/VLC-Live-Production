@@ -106,5 +106,5 @@ IF EXIST SETCONSOLE.EXE (
 )
 
 rem Launch VLC with the right arguments.
-%VLC% --quiet --disable-screensaver --no-random --no-loop --no-repeat --no-playlist-autostart --play-and-stop --no-video-title-show --no-embedded-video --fullscreen --no-qt-fs-controller --video-x=%VIDEO_X% --video-y=%VIDEO_Y% %media_files%
+%VLC% --quiet --disable-screensaver --no-random --no-loop --no-repeat --no-playlist-autostart --play-and-stop --no-video-title-show --image-duration=-1 --no-embedded-video --fullscreen --no-qt-fs-controller --video-x=%VIDEO_X% --video-y=%VIDEO_Y% %media_files%
 GOTO :EOF

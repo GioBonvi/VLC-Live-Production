@@ -61,6 +61,7 @@ at the [official documentation][vlc command line help] for further details.
 - `--no-playlist-autostart`: do not autostart a playlist when loaded
 - `--play-and-stop`: when the reproduction of an element ends close the video window and do not start the reproduction of the next element
 - `--no-video-title-show`: do not show the title of the element at the beginning of the reproduction
+- `--image-duration=-1`: show images for an unlimited amount of time (until another element of the playlist is played instead of only 10 seconds)
 - `--no-embedded-video`: show the video in a separate window fro mthe controls
 - `--fullscreen`: play the elements in fullscreen mode
 - `--no-qt-fs-controller`: hide the controls on the fullscreen video

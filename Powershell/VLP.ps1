@@ -42,4 +42,4 @@ foreach ($path in @($vlc_64, $vlc_32, $vlc_custom)) {
 Write-Host $vlc_path
 
 # Launch VLC with the right parameters.
-& $vlc_path --quiet --disable-screensaver --no-random --no-loop --no-repeat --no-playlist-autostart --play-and-stop --no-video-title-show --no-embedded-video --fullscreen --no-qt-fs-controller --video-x=$video_x --video-y=$video_y
+& $vlc_path --quiet --disable-screensaver --no-random --no-loop --no-repeat --no-playlist-autostart --play-and-stop --no-video-title-show --image-duration=-1 --no-embedded-video --fullscreen --no-qt-fs-controller --video-x=$video_x --video-y=$video_y
